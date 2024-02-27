@@ -1,0 +1,154 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;    
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.container{
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 auto; */
+    align-items: center;
+}
+
+.container > h4{
+    text-align: center;
+}
+
+.work_areas_div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work_areas{
+    font-size: 0.8rem;
+    /* font-weight: 600; */
+    /* opacity: 80%; */
+    display: flex;
+    align-items: center;
+}
+
+.red_pipe{
+    color: #ec3237;
+    margin: 0 5px;
+    font-size: 16px;
+    /* height: 15px; */
+    /* opacity: 100% !important;
+    font-weight: 600 !important; */
+}
+
+.bottom_box{
+    margin-top: 2rem;
+    width: 100%;
+    height: 7.5rem;
+    background-color: #ec3237;
+    display: flex;
+    justify-content: center;
+}
+
+.socials_div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.6rem;
+    height: 2rem;
+}
+
+.single_item{
+    display: flex;
+    color: white;
+    gap: 5px;
+}
+
+.single_item > div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    align-self: first baseline;
+}
+
+.icon{
+    background-color: white;
+    color: #ec3237;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+.with_padding{
+    padding: 5px;
+}
+
+.without_padding{
+    font-size: 2rem;
+}
+
+@media (max-width: 840px){
+    .container > h4{
+        font-size: 0.8rem;
+    }
+    .work_areas{
+        font-size: 0.6rem;
+    }
+    .socials_div{
+        width: 90%;
+        margin-top: 1.6rem;
+        height: 2rem;
+    }
+    .icon{
+        font-size: 1.2rem;
+    }
+    .with_padding{
+        padding: 3px;
+    }
+    
+    .without_padding{
+        font-size: 1.2rem;
+    }
+
+    .single_item p{
+        font-size: 0.8rem;
+    }
+    .single_item h4{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 600px){
+    /* .container > h4{
+        font-size: 0.8rem;
+    }
+    .work_areas{
+        font-size: 0.6rem;
+    } */
+    .socials_div{
+        width: 95%;
+        margin-top: 0.2rem;
+        /* height: 2rem; */
+        flex-direction: column;
+    }
+    .single_item{
+        align-items: first baseline;
+        margin-top: 0rem;
+        height: 2.5rem;
+    }
+    .icon{
+        font-size: 1rem;
+    }
+    .with_padding{
+        padding: 2px;
+    }
+    
+    .without_padding{
+        font-size: 1rem;
+    }
+
+    .single_item p{
+        font-size: 0.8rem;
+    }
+}
