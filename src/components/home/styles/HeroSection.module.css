@@ -208,7 +208,7 @@
         width: 100%;
         /* height: ; */
         aspect-ratio: 1/2;
-        /* transform: translateY(20%); */
+        transform: translateY(20%);
     }
     .middle_div > h2{
         width: 95%;
